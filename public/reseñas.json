@@ -1,0 +1,28 @@
+{
+    "cliente1": {
+        "titulo": "Carolina Sosa",
+        "cuerpo": "Todo perfecto, viaje sin preocupaciones. ¡Excelente servicio!",
+        "imagen": "public/img/cliente1.jpg",
+        "fecha": "2024-09-07"
+      },
+      "cliente2": {
+        "titulo": "Robert Pattinson",
+        "cuerpo": "Viaje inolvidable, superó mis expectativas. Volveré sin duda.",
+        "imagen": "public/img/cliente2.jpg",
+        "fecha": "2024-09-07"
+      },
+      "cliente 3": {
+        "titulo": "Martha Garcia",
+        "cuerpo": "Increíble atención y organización. ¡100% recomendable!",
+        "imagen": "public/img/cliente3.jpg",
+        "fecha": "2024-09-07"
+      },
+
+      "cliente 4": {
+        "titulo": "Pablo Ortiz",
+        "cuerpo": "Rápidos, eficientes y muy profesionales. ¡Gracias por todo!",
+        "imagen": "public/img/cliente4.jpg",
+        "fecha": "2024-09-07"
+      }
+    }
+    

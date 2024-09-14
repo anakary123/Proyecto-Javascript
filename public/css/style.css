@@ -1,0 +1,150 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    height: 100%;
+}
+
+.banner {
+    background-image: url(../img/fondo.png); 
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(247, 243, 243);
+    text-align: center;
+    position: relative;
+    z-index: 1;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.content {
+    position: relative;
+    z-index: 2;
+    max-width: 800px;
+}
+
+h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 1.5em;
+    margin-bottom: 30px;
+}
+
+.btn {
+    padding: 15px 30px;
+    font-size: 1.2em;
+    color: white;
+    background-color: #007BFF;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+
+#destinos{
+  background-color: rgb(228, 241, 241);
+}
+
+/*Estilos del Logo*/
+
+.logo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.d-inline-block{
+    border-radius: 50px;
+}
+
+/*Estilos de la galeria conoce tus destinos*/
+#noticiascontainer {
+    display: flex;
+    flex-wrap: wrap; /* Permite que los elementos se envuelvan en varias filas si es necesario */
+    margin: 10px; /* Ajuste de margen negativo para compensar el padding */
+    padding: 10px;
+    gap: 10px;
+}
+
+.card-title{
+    padding: 20px;
+    margin: 10px;
+    border-radius: 8px;
+    width: 250px;
+    text-align: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0 - 10px;
+}
+.card-img-top{
+    justify-content: center;
+    height: 150px;
+    object-fit: cover;
+
+}
+.card-text{
+    font-size: 1rem;
+    color:#070707
+}
+
+
+
+/*conoc3 tus destinos*/
+.text-center1{
+    text-align: center; /* Alinea el texto al centro */
+    font-size: 3.em; /* Tamaño de fuente grande para destacar el encabezado */
+    color: #3b3939; /* Color del texto */
+    margin: 0px 5px; /* Espacio arriba y abajo del encabezado */
+    font-family: Georgia, 'Times New Roman', Times, serif; /* Familia tipográfica */
+    font-style: italic;
+    font-weight: bold; /* Negrita para hacer el texto más prominente */
+    line-height: 1.2; /* Altura de línea para mejorar la legibilidad */
+}
+
+/*reseñas*/
+
+#reseñascontainer {
+    display: flex;
+    flex-wrap: wrap; /* Permite que los elementos se envuelvan en varias filas si es necesario */
+    margin: 0 -10px; /* Ajuste de margen negativo para compensar el padding */
+    padding-left: 25px;
+    padding-right: 15px;
+}
+.container2 h1 {
+    font-size: 3em; /* Tamaño del texto del encabezado */
+    color: #070707; /* Color del texto del encabezado */
+    margin-bottom: 2px; /* Espacio debajo del encabezado */
+}
+
+.container2 p {
+    font-size: 1.1em; /* Tamaño del texto del párrafo */
+    color: #565656; /* Color del texto del párrafo */
+    margin-bottom: 9px; /* Espacio debajo del párrafo */
+
+}
+
