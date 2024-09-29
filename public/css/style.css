@@ -45,39 +45,43 @@ p {
 }
 
 .btn {
-    padding: 15px 30px;
+    padding: 10px 25px;
     font-size: 1.2em;
-    color: white;
-    background-color: #007BFF;
+    color: rgba(42, 81, 113, 0.615);
+    background-color: #c3f5f1;
     border: none;
     border-radius: 5px;
     text-decoration: none;
     cursor: pointer;
     transition: background-color 0.3s;
+    margin-left: 65px;
+    font-family: Georgia, 'Times New Roman', Times, serif; /* Familia tipográfica */
+
 }
 
 .btn:hover {
-    background-color: #0056b3;
+    background-color: #0fc2ea;
 }
 
+.custom-btn {
+    padding: 10px 25px;
+    font-size: 1.2em;
+    color: rgba(42, 81, 113, 0.615);
+    background-color: #c3f5f1;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    align-items: center;
 
-#destinos{
-  background-color: rgb(228, 241, 241);
+}
+
+.custom-btn:hover {
+    background-color: #0fc2ea;
 }
 
 /*Estilos del Logo*/
-
-.logo {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    z-index: 10;
-    padding: 10px 20px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
 .d-inline-block{
     border-radius: 50px;
 }
@@ -112,17 +116,13 @@ p {
     color:#070707
 }
 
-
-
-/*conoc3 tus destinos*/
-.text-center1{
+/*conoce tus destinos*/
+.text-center{
     text-align: center; /* Alinea el texto al centro */
     font-size: 3.em; /* Tamaño de fuente grande para destacar el encabezado */
-    color: #3b3939; /* Color del texto */
+    color: #323333; /* Color del texto */
     margin: 0px 5px; /* Espacio arriba y abajo del encabezado */
     font-family: Georgia, 'Times New Roman', Times, serif; /* Familia tipográfica */
-    font-style: italic;
-    font-weight: bold; /* Negrita para hacer el texto más prominente */
     line-height: 1.2; /* Altura de línea para mejorar la legibilidad */
 }
 
@@ -135,16 +135,47 @@ p {
     padding-left: 25px;
     padding-right: 15px;
 }
-.container2 h1 {
-    font-size: 3em; /* Tamaño del texto del encabezado */
-    color: #070707; /* Color del texto del encabezado */
-    margin-bottom: 2px; /* Espacio debajo del encabezado */
+
+.custom-card {
+justify-content: center;
+align-items: center;
+background-color: #daf6f7;
+box-shadow: 0 4px 8px rgba(82, 50, 81, 0.652);
 }
 
-.container2 p {
-    font-size: 1.1em; /* Tamaño del texto del párrafo */
-    color: #565656; /* Color del texto del párrafo */
-    margin-bottom: 9px; /* Espacio debajo del párrafo */
+.custom-card-body {
+    margin-left: 10;
+    justify-items: center;
+    padding: auto;
+}
 
+.card-title {
+text-align: center;
+font-size: 1.5rem;
+color:#070707
+}
+
+.card-text {
+    text-align: center;
+    font-size: medium;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/*galeria*/
+.galeria-img {
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra ligera */
+    width: 287px; /* Establece un ancho fijo */
+    height: 250px; /* Establece una altura fija */
+}
+
+.card {
+    border: none;
+}
+
+/*estilos para el presupuesto*/
+.error{
+  background: red;
+  font-size: 12px;
 }
 

@@ -19,7 +19,7 @@
     },
     "producto4": {
       "titulo": "Aventura en Machu Picchu",
-      "cuerpo": "Explora las maravillas de Machu Picchu con un paquete que incluye vuelos, hotel y excursiones guiadas.",
+      "cuerpo": "Explora las maravillas de Machu Picchu con un paquete que incluye vuelos, hotel y excursiones.",
       "imagen": "public/img/cuzco.jpg",
       "fecha": "2024-09-07"
     },
@@ -43,7 +43,7 @@
 },
 "producto8": {
   "titulo": "Ruta del Vino en La Toscana",
-  "cuerpo": "Disfruta de una escapada de 7 días por la región vinícola de la Toscana, Italia. Incluye vuelos, alojamiento en viñedos y catas de vino.",
+  "cuerpo": "Disfruta de una escapada de 7 días por la región vinícola de la Toscana, Italia. Incluye vuelos, alojamiento en viñedos.",
   "imagen": "public/img/vino.jpg",
   "fecha": "2024-09-07"
 }

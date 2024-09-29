@@ -7,7 +7,7 @@ function obtenerNoticiasDelJSON() {
         })
 
         .catch(error => {
-            console.error('Error:', error);
+            console.error('Error', error);
         })
 } 
 
@@ -20,12 +20,12 @@ function mostrarNoticias() {
         Object.values(data).forEach(producto => {
             noticiasContainer.innerHTML +=
                 `<div class="col">
-                     <div class ="card" style="width: 18rem;">
+                    <div class ="card" style="width: 18rem;">
                       <img src=${producto.imagen} class="card-img-top" alt="...">
                         <div class="card-body">
                           <h5 class="card-title">${producto.titulo}</h5>
                           <p class="card-text">${producto.cuerpo}</p>
-                          <a href="#" class="btn btn-primary">comprar</a>
+                          <a href="#" class="btn">Comprar</a>
                         </div>
                     </div>
                 </div>`
@@ -61,9 +61,9 @@ function obtenerReseñasDelJSON() {
             Object.values(data).forEach(cliente => {
                 reseñasContainer.innerHTML +=
                     `<div class="col">
-                         <div class ="card" style="width: 18rem;">
+                         <div class ="card custom-card" style="width: 18rem;">
                           <img src=${cliente.imagen} class="card-img-top" alt="...">
-                            <div class="card-body">
+                            <div class="custom-card-body">
                               <h5 class="card-title">${cliente.titulo}</h5>
                               <p class="card-text">${cliente.cuerpo}</p>
                               
