@@ -75,6 +75,8 @@ function obtenerReseñasDelJSON() {
         })
     
     }
+
+    
     
     obtenerReseñasDelJSON()
     mostrarReseñas()

@@ -58,7 +58,15 @@ p {
     font-family: Georgia, 'Times New Roman', Times, serif; /* Familia tipográfica */
 
 }
-
+.btn-secondary {
+    background-color:darkcyan;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    text-align: center;
+}
 .btn:hover {
     background-color: #0fc2ea;
 }
@@ -109,6 +117,7 @@ p {
     justify-content: center;
     height: 150px;
     object-fit: cover;
+    box-shadow: 0 4px 8px 0 lightskyblue, 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
 }
 .card-text{
@@ -163,10 +172,17 @@ color:#070707
 
 /*galeria*/
 .galeria-img {
-    border-radius: 10px; /* Bordes redondeados */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra ligera */
-    width: 287px; /* Establece un ancho fijo */
-    height: 250px; /* Establece una altura fija */
+    margin: 30px 20px 10px 100px;
+    box-shadow: 0 4px 8px 0 lightskyblue, 0 6px 20px 0 rgba(0, 0, 0, 0.19); /*sombra ligera*/
+    display: inline-block;
+    width: 300px;
+    height: 200px;
+    border-radius: 4px; /*bordes redondeados*/
+    margin-top: 20px;
+    margin-left: 20px;
+    color: yellow;
+    text-shadow: 1px 2px 2px black,0 0 25px blue, 0 0 5px blue;
+    text-align: center;
 }
 
 .card {
@@ -178,4 +194,40 @@ color:#070707
   background: red;
   font-size: 12px;
 }
+
+/*estilos para el footer*/
+
+footer {
+    background-color: #178b8b;
+    color: white;
+    font-size:small;
+    text-align: center;
+    margin-top: 50px; /* Agrega espacio entre la sección anterior y el footer */
+    padding: 20px;
+}
+.social-icons {
+    margin-bottom: 5px;
+}
+.social-icons img {
+    width: 40px;
+    margin: 20px;
+}
+.company-info, .legal-notice {
+    margin: 5px 0;
+}
+a {
+    color: #fff;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+
+
+
+}
+
+
+
+
+
 
