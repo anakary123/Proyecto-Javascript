@@ -185,9 +185,6 @@ color:#070707
     text-align: center;
 }
 
-.card {
-    border: none;
-}
 
 /*estilos para el presupuesto*/
 .error{
@@ -205,6 +202,7 @@ footer {
     margin-top: 50px; /* Agrega espacio entre la sección anterior y el footer */
     padding: 20px;
 }
+
 .social-icons {
     margin-bottom: 5px;
 }
@@ -215,15 +213,23 @@ footer {
 .company-info, .legal-notice {
     margin: 5px 0;
 }
+
 a {
     color: #fff;
     text-decoration: none;
 }
+
 a:hover {
     text-decoration: underline;
+}
 
+.primera {
+    margin-left: 15%;
+    margin-right: 10%;
+}
 
-
+.espacioEntreElementosDelPresupuesto {
+    margin-bottom: 35px;
 }
 
 

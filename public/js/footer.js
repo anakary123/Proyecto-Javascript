@@ -1,10 +1,10 @@
-function renderizarfooter(){
+function renderizarfooter()
+{
     let rutas = {
         index: 'index.html',
         galeria: 'views/galeria.html',
         presupuesto: 'views/presupuesto.html',
         contacto: 'views/contacto.html'
-
     }
      
      const footer = document.getElementById('footer')
@@ -26,7 +26,8 @@ function renderizarfooter(){
      }
 
     footer.innerHTML = 
-     `<div class="social-icons">
+     `<footer>
+        <div class="social-icons">
         <a href="https://www.facebook.com" target="_blank">
             <img src="https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_%282019%29.svg" alt="Facebook">
         </a>
@@ -51,7 +52,9 @@ function renderizarfooter(){
         <p><a href="#">Aviso Legal</a> | <a href="#">Política de Privacidad</a></p>
     </div>
     
-    <p>&copy; 2024 Inspirate y viaja. Todos los derechos reservados.</p>`
+    <p>&copy; 2024 Inspirate y viaja. Todos los derechos reservados.</p>
+     </footer>
+     `
 
 }
 
