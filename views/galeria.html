@@ -10,6 +10,9 @@
         <script src="https://kit.fontawesome.com/a4b1bc17f3.js" crossorigin="anonymous"></script>
     </head>
     <body>
+
+        <!--La combinación del id="navbar" y class="nav" sugiere que este div será estilizado 
+        para funcionar como la Barra de navegación utilizando Javascript para darle funcionalidad y estructura-->
         <div id="navbar" class="nav"></div>
         
         <section id="galeria" class="sectionPadding">
@@ -19,6 +22,9 @@
                 <div class="container">
                     <div class="row" id="galeriaContainer">
                         <div class="col text-center">
+
+                            <!--Este código crea una tarjeta (div con clase "card") de 18 rem de ancho que muestra una imagen 
+                            (img) y un botón para ver esa imagen en un lightbox y los siguientes div realizan la misma función-->
                             <div class="card" style="width: 18rem;">
                                 <img src="../public/img/cancun1.jpg" class="galeria-img" alt="">
                                 <div class="card-body">
@@ -150,8 +156,13 @@
                     </div>
                 </div>
             </section>
+
+            <!--Creamos un documento en javascript llamado "footer.js" por lo tanto en nuestro HTML
+            agregamos un div y creamos un id para el footer"-->
             <div id="footer"></div>
 
+            <!--Este código JavaScript define funciones que se ejecutan cuando se abren dos instancias de lightbox
+             (ventanas emergentes de galería de imágenes).-->
             <script>
             fsLightboxInstances["first-lightbox"].props.onOpen = function () {
                 console.log("The first lightbox has opened.");
@@ -160,6 +171,8 @@
                 console.log("The second lightbox has opened.");
             }
             </script>
+
+            <!--Enlaces de boostraap y de todos los documentos creados en javascript-->
 
             <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" 
             integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" 

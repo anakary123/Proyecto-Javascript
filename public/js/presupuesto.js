@@ -6,7 +6,7 @@ function validarFormulario()
     const telefono = document.getElementById ('telefono');
     const email = document.getElementById ('email');
     const enviarFormulario = document.getElementById('enviarFormulario');
-    const limpiarFormulario = document.getElementById('limpiarFormulario')
+    const limpiarFormulario = document.getElementById('limpiarFormulario');
     const viajesSeleccionado = document.getElementById('viajes');
     const plazoSeleccionado = document.getElementById('plazo');
 
