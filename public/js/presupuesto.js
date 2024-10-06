@@ -6,7 +6,7 @@ function validarFormulario()
     const telefono = document.getElementById ('telefono');
     const email = document.getElementById ('email');
     const enviarFormulario = document.getElementById('enviarFormulario');
-    const productoSeleccionado = document.getElementById('viajes');
+    const viajesSeleccionado = document.getElementById('viajes');
     const plazoSeleccionado = document.getElementById('plazo');
 
     //Regex para validaciones de los formatos especificados
@@ -93,23 +93,23 @@ function validarFormulario()
 
     })
 
-    productoSeleccionado.addEventListener('change', function () {
-        const producto = this.value;
+    viajesSeleccionado.addEventListener('change', function () {
+        const viajes = this.value;
         const options = this.options;
 
-        let valorDelProducto = 0;
+        let valorDelviajes = 0;
 
         for (let i = 0; i < options.length; i++) {
-            if (options[i].value === producto) {
+            if (options[i].value === viajes) {
                 options[i].setAttribute('selected', 'selected');
 
-                valorDelProducto = parseFloat(options[i].value);
+                valorDelviajes = parseFloat(options[i].value);
             } else {
                 options[i].removeAttribute('selected');
             }
         }
 
-        valorAcumulado = valorDelProducto;
+        valorAcumulado = valorDelviajes;
         esValido = true;
 
         return
@@ -141,18 +141,18 @@ function validarFormulario()
 
     enviarFormulario.addEventListener('click', function (event) {
         let estaSeleccionado = document.getElementById ('condiciones').checked;
-        let productos = productoSeleccionado.options
-        let productoPorDefecto = false;
+        let viajes = viajesSeleccionado.options
+        let viajesPorDefecto = false;
 
-        for (let i = 0; i < productos.length; i++) {
-            if (productos[i].selected && productos[i].value === "0") {
-                productoPorDefecto = true;
+        for (let i = 0; i < viajes.length; i++) {
+            if (viajes[i].selected && viajes[i].value === "0") {
+                viajesPorDefecto = true;
                 break;
                
             }
         }
 
-        if(! esValido || ! estaSeleccionado || productoPorDefecto) {
+        if(! esValido || ! estaSeleccionado || viajesPorDefecto) {
             event.preventDefault();
 
             alert('Errores de validacion');

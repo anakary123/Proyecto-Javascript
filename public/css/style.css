@@ -94,6 +94,13 @@ p {
     border-radius: 50px;
 }
 
+.navbar-fixed {
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+    top: 0;
+}
+
 /*Estilos de la galeria conoce tus destinos*/
 #noticiascontainer {
     display: flex;
@@ -133,7 +140,9 @@ p {
     margin: 0px 5px; /* Espacio arriba y abajo del encabezado */
     font-family: Georgia, 'Times New Roman', Times, serif; /* Familia tipográfica */
     line-height: 1.2; /* Altura de línea para mejorar la legibilidad */
+    margin-top: 20px;
 }
+
 
 /*reseñas*/
 
@@ -162,6 +171,7 @@ box-shadow: 0 4px 8px rgba(82, 50, 81, 0.652);
 text-align: center;
 font-size: 1.5rem;
 color:#070707
+
 }
 
 .card-text {
@@ -171,11 +181,11 @@ color:#070707
 }
 
 /*galeria*/
-.galeria-img {
+.galeria-img { 
     margin: 30px 20px 10px 100px;
     box-shadow: 0 4px 8px 0 lightskyblue, 0 6px 20px 0 rgba(0, 0, 0, 0.19); /*sombra ligera*/
     display: inline-block;
-    width: 300px;
+    width: 243px;
     height: 200px;
     border-radius: 4px; /*bordes redondeados*/
     margin-top: 20px;
@@ -183,8 +193,17 @@ color:#070707
     color: yellow;
     text-shadow: 1px 2px 2px black,0 0 25px blue, 0 0 5px blue;
     text-align: center;
+    
+    
+
 }
 
+#galeria1{
+    margin-top: 150px;
+    text-align: center;
+    color: #178b8b;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
 
 /*estilos para el presupuesto*/
 .error{
@@ -192,6 +211,25 @@ color:#070707
   font-size: 12px;
 }
 
+.presupuesto {
+    font-weight: bold;
+    color:darkgreen;
+    font-size: 30px;
+}
+#presupuesto1{
+    margin-top: 150px;
+    text-align: center;
+    color: #178b8b;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+
+.parte1{
+    color: #178b8b;
+}
+.parte2{
+    color: #178b8b;
+}
 /*estilos para el footer*/
 
 footer {
@@ -232,6 +270,14 @@ a:hover {
     margin-bottom: 35px;
 }
 
+/* estilos contacto*/
+#contacto1{
+margin-top: 150px;
+text-align: center;
+color: #178b8b;
+text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+
+}
 
 
 

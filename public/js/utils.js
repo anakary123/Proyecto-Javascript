@@ -25,7 +25,9 @@ function mostrarNoticias() {
                         <div class="card-body">
                           <h5 class="card-title">${producto.titulo}</h5>
                           <p class="card-text">${producto.cuerpo}</p>
-                          <a href="#" class="btn">Comprar</a>
+                          <a href="http://127.0.0.1:5500/views/presupuesto.html" class="btn">Comprar</a>
+
+                          
                         </div>
                     </div>
                 </div>`
@@ -34,6 +36,7 @@ function mostrarNoticias() {
     })
 
 }
+
 
 obtenerNoticiasDelJSON()
 mostrarNoticias()
