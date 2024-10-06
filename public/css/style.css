@@ -143,6 +143,10 @@ p {
     margin-top: 20px;
 }
 
+.sectionPadding {
+    padding: 50px;
+}
+
 
 /*reseñas*/
 
@@ -261,10 +265,7 @@ a:hover {
     text-decoration: underline;
 }
 
-.primera {
-    margin-left: 15%;
-    margin-right: 10%;
-}
+
 
 .espacioEntreElementosDelPresupuesto {
     margin-bottom: 35px;
@@ -279,7 +280,11 @@ text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
 
 }
 
+.presupuestoFinal {
+    border: none;
+    
+}
 
-
-
-
+.presupuestoFinal:focus {
+    outline: none;
+}

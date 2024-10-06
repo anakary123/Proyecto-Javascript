@@ -96,9 +96,9 @@
                     </div>
                     
                     <!-- Mostrar Presupuesto Final -->
-                     <div class="mb-3">
+                    <div class="mb-3">
                         <label for="presupuestoFinal" class="form-label">Presupuesto final:</label>
-                        <div id="presupuestoFinal" class="presupuestoFinal">0€</div>
+                        <input type="text" id="presupuestoFinal" class="presupuestoFinal" value="0€" readonly>
                     </div>
                     
                     <!-- Condiciones y Botones -->
@@ -107,7 +107,7 @@
                         <label class="form-check-label" for="condiciones">Acepto las condiciones de privacidad</label>
                     </div>
                     <button type="submit" class="btn btn-primary" id="enviarFormulario"> Enviar Presupuesto </button>
-                    <button type="reset" class="btn btn-secundary"> Resetear </button> <br><br>
+                    <button type="reset" class="btn btn-secundary" id="limpiarFormulario"> Resetear </button> <br><br>
                 </form>
         </div>
             <div id="footer"></div>
